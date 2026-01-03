@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public int ProductId { get; set; }
+        public string SupplierCode { get; set; } = null!;
         public Product Product { get; set; } = null!;
         public int ContactId { get; set; }
         public Contact Contact { get; set; } = null!;
